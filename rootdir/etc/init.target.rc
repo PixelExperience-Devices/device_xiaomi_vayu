@@ -86,6 +86,9 @@ on fs
 
     mkdir /mnt/vendor/persist/subsys 0770 root system
 
+    rm /cache/boot_lc_main.txt
+    start boot_lc_main
+
 on post-fs
     # set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
@@ -241,6 +244,13 @@ service dcvs-sh /vendor/bin/init.qti.dcvs.sh
     disabled
     oneshot
 
+service boot_lc_main /system/bin/logcat -f /cache/boot_lc_main.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
 on property:vendor.dcvs.prop=1
    start dcvs-sh
 
@@ -274,3 +284,6 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     group nfc
     writepid /dev/cpuset/system-background/tasks
     disabled
+
+on property:sys.boot_completed=1
+    stop boot_lc_main
