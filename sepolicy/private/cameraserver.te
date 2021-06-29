@@ -1,0 +1,2 @@
+allow cameraserver nfc_service:service_manager { find };
+set_prop(cameraserver, exported_system_prop);
