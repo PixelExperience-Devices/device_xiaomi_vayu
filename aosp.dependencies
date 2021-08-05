@@ -1,0 +1,18 @@
+[
+  {
+   "remote": "pixel-devices",
+   "repository": "kernel_xiaomi_vayu",
+   "target_path": "kernel/xiaomi/vayu",
+   "branch": "twelve"
+  },
+  { "remote": "pixel-devices-blobs",
+    "repository": "vendor_xiaomi_vayu",
+    "target_path": "vendor/xiaomi/vayu",
+    "branch": "twelve"
+  },
+  { "remote": "ArrowOS-Devices",
+    "repository": "android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "arrow-12.0"
+  } 
+]

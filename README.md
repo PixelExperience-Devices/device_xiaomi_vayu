@@ -1,4 +1,4 @@
-Copyright (C) 2021 ArrowOS
+Copyright (C) 2021 Android Open Source Project
 
 Device configuration for Poco X3 Pro
 =========================================
