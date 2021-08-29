@@ -23,6 +23,10 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 # Dynamic partitions setup
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
@@ -335,18 +339,6 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_video.xml
 
-# Overlays
-PRODUCT_PACKAGES += \
-   CarrierConfigOverlayVayu \
-   DialerOverlayVayu \
-   FrameworksResOverlayVayu \
-   SettingsOverlayVayu \
-   SettingsProvidorOverlayVayu \
-   SystemUIOverlayVayu \
-   TelephonyOverlayVayu \
-   TetheringConfigOverlayVayu \
-   WifiOverlayVayu
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
@@ -457,6 +449,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.wifi.supplicant@2.1.vendor \
     vendor.qti.hardware.wifi.supplicant@2.2.vendor \
     libwpa_client \
+    TetheringConfigOverlay \
+    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
