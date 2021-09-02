@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "pixel-devices",
+    "repository": "kernel_xiaomi_vayu",
+    "target_path": "kernel/xiaomi/vayu",
+    "branch": "eleven"
+  },
+  {
+    "remote": "pixel-devices-blobs",
+    "repository": "vendor_xiaomi_vayu",
+    "target_path": "vendor/xiaomi/vayu",
+    "branch": "eleven"
+  }
+]
