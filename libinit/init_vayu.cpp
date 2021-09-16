@@ -125,8 +125,8 @@ void set_device_props(const std::string fingerprint, const std::string descripti
 
 void vendor_load_properties() {
 //   SafetyNet workaround
-    char const fp[] = "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys";
-    char const fp_desc[] = "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys";
+    char const fp[] = "POCO/vayu_global/vayu:11/RKQ1.200826.002/V12.5.4.0.RJUMIXM:user/release-keys";
+    char const fp_desc[] = "vayu_global-user 11 RKQ1.200826.002 V12.5.4.0.RJUMIXM release-keys";
 
     string region = android::base::GetProperty("ro.boot.hwc", "");
 
