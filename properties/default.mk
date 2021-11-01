@@ -19,7 +19,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.max_virtual_display_dimension=4096 \
     ro.surface_flinger.has_HDR_display=true \
     ro.surface_flinger.has_wide_color_display=false \
-    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.protected_contents=true \
     ro.surface_flinger.set_display_power_timer_ms=1000 \
     ro.surface_flinger.set_idle_timer_ms=500 \
