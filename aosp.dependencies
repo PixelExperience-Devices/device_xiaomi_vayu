@@ -10,9 +10,9 @@
     "target_path": "vendor/xiaomi/vayu",
     "branch": "twelve"
   },
-  { "remote": "ArrowOS-Devices",
-    "repository": "android_hardware_xiaomi",
+  { "remote": "pixel",
+    "repository": "hardware_xiaomi",
     "target_path": "hardware/xiaomi",
-    "branch": "arrow-12.0"
+    "branch": "twelve"
   } 
 ]
