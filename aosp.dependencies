@@ -17,7 +17,7 @@
   },
   { "remote": "pixel",
     "repository": "packages_resources_devicesettings-custom",
-    "target_patch": "packages/resources/devicesettings-custom",
+    "target_path": "packages/resources/devicesettings-custom",
     "branch": "eleven"
   }
 ]
