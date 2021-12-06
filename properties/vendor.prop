@@ -190,3 +190,9 @@ sys.vendor.shutdown.waittime=500
 # WiFi
 wifi.aware.interface=wifi-aware0
 
+#Background control
+ro.vendor.qti.sys.fw.bg_apps_limit=20
+
+#Enable bg dexopt
+persist.bg.dexopt.enable=true
+
