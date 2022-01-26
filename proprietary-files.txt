@@ -92,6 +92,11 @@ vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib64/libadsprpc.so
 
+# ANT - from AOSPA
+system_ext/bin/dun-server|de28d515ac88ff1848de038f403431b457d9ae51
+system_ext/lib/com.qualcomm.qti.ant@1.0.so|b3ee0c108229539e1a0e3a53b3292017d10fcb59
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so|4438005b864f38b469962791db0f856a60fb5710
+
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
