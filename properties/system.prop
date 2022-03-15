@@ -97,9 +97,18 @@ persist.sys.wfd.virtual=0
 # Audio
 persist.vendor.audio_hal.dsp_bit_width_enforce_mode=6969
 
+# AppStore
+ios.appstore.showapps="bgmi cyberpunk2077 pubgmobile gta* grand\ theft\ auto*"
+
 # Cyberpunk 2077
-ios.appstore.showapps="bgmi cyberpunk2077 pubgmobile"
 cyberpunk.always.win="ogdroid"
 cyberpunk.graphics.emulate="rtx3090"
 cyberpunk.gpu.vendor="nvidia"
 cyberpunk.bugs=0
+
+# GTA Trilogy definitive edition
+org.appstore.time=02072025 # change time for future apps
+gta.ios.games="san-andreas vice-city three"
+gta.prot.name="cj tommy claude"
+gta.default.money=69696969
+
