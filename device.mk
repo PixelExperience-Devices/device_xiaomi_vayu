@@ -523,5 +523,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BitcoinMiner
 
+# Cyberpunk 2077
+PRODUCT_PACKGES += \
+    CyberPunk
+
 include vendor/bitcoin/mine.mk
 include vendor/apple/vayu/vayu-vendor.mk
