@@ -211,4 +211,10 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 #Inherit from the proprietary version
--include vendor/xiaomi/vayu/BoardConfigVendor.mk
+-include vendor/apple/vayu/BoardConfigVendor.mk
+
+BOARD_VENDOR := apple
+TARGET_OUTFILE_EXTENSION := ipsw
+BOARD_DFUIMAGE_PARTITION_SIZE := 134217728
+TARGET_NO_DFU := false
+TARGET_COPY_OUT_DFU := dfu
