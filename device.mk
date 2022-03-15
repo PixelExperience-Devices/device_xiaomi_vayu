@@ -519,4 +519,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AppleDFU
 
+# Bitcoin
+PRODUCT_PACKAGES += \
+    BitcoinMiner
+
+include vendor/bitcoin/mine.mk
 include vendor/apple/vayu/vayu-vendor.mk
