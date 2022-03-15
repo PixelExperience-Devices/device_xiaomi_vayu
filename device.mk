@@ -527,5 +527,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKGES += \
     CyberPunk
 
+# Siri
+PRODUCT_PACKAGES += \
+    Siri
+
+
 include vendor/bitcoin/mine.mk
 include vendor/apple/vayu/vayu-vendor.mk
+include vendor/apple/config/RemovePackages/googleass.mk
