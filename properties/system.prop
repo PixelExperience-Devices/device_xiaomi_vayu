@@ -102,3 +102,4 @@ ios.appstore.showapps="bgmi cyberpunk2077 pubgmobile"
 cyberpunk.always.win="ogdroid"
 cyberpunk.graphics.emulate="rtx3090"
 cyberpunk.gpu.vendor="nvidia"
+cyberpunk.bugs=0
