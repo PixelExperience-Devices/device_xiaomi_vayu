@@ -55,6 +55,10 @@ debug.stagefright.ccodec=1
 
 # Memory optimizations
 ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_age=5000
+ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_limit=8
+ro.vendor.qti.sys.fw.bg_apps_limit=60
 
 # NFC
 ro.nfc.port=I2C
@@ -74,6 +78,7 @@ ro.vendor.qti.core_ctl_max_cpu=4
 ro.vendor.qti.core_ctl_min_cpu=2
 
 # Radio
+DEVICE_PROVISIONED=1
 persist.radio.dynamic_sar=false
 persist.radio.NO_STAPA=1
 persist.radio.VT_HYBRID_ENABLE=1
@@ -87,9 +92,12 @@ sys.fflag.override.settings_seamless_transfer=true
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 
+# WiFi
+config.disable_rtt=true
+
 # WFD
 debug.sf.enable_hwc_vds=0
 debug.sf.latch_unsignaled=1
-media.wfd.max_resolution=8
+media.wfd.max_resolution=4
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
