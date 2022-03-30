@@ -28,4 +28,5 @@
     <integer name="config_maxVisibleNotificationIcons">4</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">5</integer>
 
+    <dimen name="status_bar_height">28dp</dimen>
 </resources>
