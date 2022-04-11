@@ -778,8 +778,8 @@
     </array>
 
     <array name="config_sfps_sensor_props_0" translatable="false">
-        <item>local:4630946545580055169</item>
-        <item>1080</item>
+	<item></item>
+        <item></item>
         <item>910</item>
         <item>150</item>
     </array>
