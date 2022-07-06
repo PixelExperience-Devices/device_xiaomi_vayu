@@ -510,6 +510,22 @@ vendor/lib64/libStDrvInt.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
+# DolbyAtmos from ZTE A2019 Pro (P845A02) sdm845-user-9-PKQ1.181105.001-559-release-keys
+proprietary/vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service ded8af35bca52d8055e4c4f52d34fc55
+proprietary/vendor/etc/dolby/dap-default.xml 5721af0683febe89302e94e46d75f795
+proprietary/vendor/etc/media_codecs_dolby_audio.xml 1d5ce6252fd03368de6b5f252aaca4b0
+proprietary/vendor/lib/libdapparamstorage.so 69ac220cbbe4efd853082978646d0e79
+proprietary/vendor/lib/libstagefright_soft_ddpdec.so 5a6a603cdc3b0745a05178d035a17305
+proprietary/vendor/lib/libstagefrightdolby.so 12ffd24f9f13cbe79954a4b23d9c6de2
+proprietary/vendor/lib/soundfx/libatmos.so 22c01fdc74b6018f9951ede2842b2bdc
+proprietary/vendor/lib/vendor.dolby.hardware.dms@1.0.so 52d65f67644a5dcdcf51f910ec554801
+proprietary/vendor/lib64/libdapparamstorage.so ac14d88fa5a5795b17f371cdff81bee4 
+proprietary/vendor/lib64/libdlbdsservice.so 652955988f1b25b04e06a41553fc395b
+proprietary/vendor/lib64/libstagefrightdolby.so   45867a77041c582917dbb21e7aff762a
+proprietary/vendor/lib64/soundfx/libatmos.so  cc047cbb270d47be40648c5a820381e3
+proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so  83d3a7265514eaa74444f340df9e77ac
+proprietary/vendor/lib64/vendor.dolby.hardware.dms@1.0.so  f8012e4b5ad91f9a60a25f7201450a79
+
 # ESE
 vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
