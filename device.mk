@@ -369,6 +369,10 @@ PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
 
 # Overlays
+
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 PRODUCT_PACKAGES += \
    CarrierConfigOverlayVayu \
    DialerOverlayVayu \
